@@ -6,8 +6,33 @@
     <title>GG Hospital</title>
     <link rel="stylesheet" href="\nav_bar\gg.css" />
     <link rel="stylesheet" href="top_header.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
+    <header>
+      <div id="header-icon">
+        <div>
+          <p>
+            Follow us on : <i class="fa fa-linkedin"></i>&nbsp;
+            <i class="fa fa-youtube-play"></i>&nbsp;
+            <i class="fa fa-instagram"></i>&nbsp;
+            <i class="fa fa-facebook-f"></i>
+          </p>
+        </div>
+        <div>
+          <p>
+            <i class="fa fa-phone"></i>
+            04712779100 | 04712779101 &nbsp;
+            <i class="fa fa-envelope"></i>
+            gghospitalphkpl@gmail.com | edoffice@gg-hospital.com
+          </p>
+        </div>
+      </div>
+    </header>
+
     <div class="header-container">
       <div>
         <img class="logo" src="\nav_bar\img\gglogo.png" alt="GG Logo" />
@@ -32,7 +57,11 @@
         <p>Fastest-Growing Multi Speciality Hospital</p>
         <p>in South Kerala</p>
 
-        <button class="button">Book an Appointment</button>
+        <div class="flexcontainer">
+          <button class="button">Book an Appointment</button>
+          <i id="play-icon" class="fa fa-play-circle"></i>&nbsp;&nbsp;
+          <p id="talk">Doctors <span>Talk</span></p>
+        </div>
       </div>
 
       <div class="bookingTab">
@@ -54,7 +83,12 @@
             name="fname"
             placeholder="Phone Number"
           />
-          <input class="input-field" type="date" id="birthday" name="birthday" />
+          <input
+            class="input-field"
+            type="date"
+            id="birthday"
+            name="birthday"
+          />
         </div>
         <br />
         <div class="bookingRow">
@@ -77,31 +111,268 @@
       </div>
     </div>
 
-    <div class="department">
+    <div class="Container">
       <div>
-        <h2>Our <br>Departments</h2>
-        <img src="" alt="">
+        <h1>Our <br />Departments</h1>
       </div>
-      <div>
-        <img src="img/Rectangle 10 (2).png" alt="First department image">
-        <h4>Hepatobiliary Surgery</h4>
-        <p>The Hepatobiliary and Transplantology Unit of <br/>GG Hospital offers a comprehensive...</p>
-        <a href="">Read More</a>
-      </div>
+      <div class="flexcontainer">
+        <div class="specificDepartment">
+          <img src="img/Rectangle 10 (2).png" alt="First department image" />
+          <h4>Hepatobiliary Surgery</h4>
+          <p>
+            The Hepatobiliary and Transplantology Unit of <br />GG Hospital
+            offers a comprehensive...
+          </p>
+          <a href="">Read More</a>
+        </div>
 
-      <div>
-        <img src="img/Rectangle 10 (1).png" alt="Second department image">
-        <h4>Hepatobiliary Surgery</h4>
-        <p>The Hepatobiliary and Transplantology Unit of <br/>GG Hospital offers a comprehensive...</p>
-        <a href="">Read More</a>
-      </div>
+        <div class="specificDepartment">
+          <img src="img/Rectangle 10 (1).png" alt="Second department image" />
+          <h4>Medical Oncology</h4>
+          <p>
+            GG Hospital is the best affordable hospital in <br />South Kerala
+            which is NABH accredited hospital...
+          </p>
+          <a href="">Read More</a>
+        </div>
 
-      <div>
-        <img src="img/Rectangle 10.png" alt="Third department image">
-        <h4>Hepatobiliary Surgery</h4>
-        <p>The Hepatobiliary and Transplantology Unit of <br/>GG Hospital offers a comprehensive...</p>
-        <a href="">Read More</a>
+        <div class="specificDepartment">
+          <img src="img/Rectangle 10.png" alt="Third department image" />
+          <h4>ENT, Head & Neck Skull Surgery</h4>
+          <p>
+            The ENT Department in GG Hospital provides a <br />wide range of
+            treatment modalities including...
+          </p>
+          <a href="">Read More</a>
+        </div>
       </div>
     </div>
+
+    <div id="why">
+      <div>
+        <img src="img/why_gg.png" alt="" height="400px" />
+      </div>
+      <div>
+        <h3>Why GG Hospital</h3>
+        <br />
+        <div>
+          <img
+            class="gc"
+            src="img/green-check-mark-verified-circle.png"
+            alt=""
+            height="20px"
+          />
+          <img
+            class="gc"
+            src="img/green-check-mark-verified-circle.png"
+            alt=""
+            height="20px"
+          />
+          <img
+            class="gc"
+            src="img/green-check-mark-verified-circle.png"
+            alt=""
+            height="20px"
+          />
+          <img
+            class="gc"
+            src="img/green-check-mark-verified-circle.png"
+            alt=""
+            height="20px"
+          />
+          <img
+            class="gc"
+            src="img/green-check-mark-verified-circle.png"
+            alt=""
+            height="20px"
+          />
+        </div>
+        <ul id="why-ul">
+          <li class="why-li">
+            Multi-super speciality hospital in South Kerala.
+          </li>
+          <li class="why-li">Achieved the unique reputation</li>
+          <li class="why-li">
+            Multi-super speciality hospital in South Kerala.
+          </li>
+          <li class="why-li">
+            Multi-super speciality hospital in South Kerala.
+          </li>
+          <li class="why-li">
+            Multi-super speciality hospital in South Kerala.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="Container">
+      <div class="centreHeads">
+        <h1>Meet Our Specialist</h1>
+        <p>We have the best Doctors in GG</p>
+      </div>
+
+      <div class="flexcontainer specialistContainer">
+        <div class="specialist">
+          <img src="img/Specialist 1.png" alt=" Specialist 1" />
+          <h2>Lisha Powell</h2>
+          <p>ENT Specialists</p>
+        </div>
+        <div class="specialist">
+          <img src="img/Specialist 2.png" alt=" Specialist 2" />
+          <h2>ENT Specialists</h2>
+          <p>Cardiologists</p>
+        </div>
+        <div class="specialist">
+          <img src="img/Specialist 3.png" alt=" Specialist 3" />
+          <h2>Linda Stapleton</h2>
+          <p>Orthopaedic surgeons</p>
+        </div>
+        <div class="specialist">
+          <img src="img/Specialist 4.png" alt=" Specialist 4" />
+          <h2>Sandra John</h2>
+          <p>Psychiatrists</p>
+        </div>
+      </div>
+      <div class="centreButton">
+        <button class="button">View All</button>
+      </div>
+    </div>
+
+    <div class="Container">
+      <div class="centreHeads">
+        <h1>Facilities & Activities</h1>
+      </div>
+      <div class="flexcontainer facility">
+        <img src="img/Rectangle 24.png" alt="facility&activity image 1" />
+        <img src="img/Rectangle 26.png" alt="facility&activity image 2" />
+        <img src="img/Rectangle 27.png" alt="facility&activity image 3" />
+      </div>
+    </div>
+
+    <div class="Container">
+      <div class="centreHeads">
+        <h1>You may be Interested</h1>
+      </div>
+      <div class="flexcontainer">
+        <div class="specificDepartment">
+          <img src="img/Rectangle 1.png" alt="You-may-be-Interested image 1" />
+          <h4>Hepatobiliary Surgery</h4>
+          <p>
+            The Hepatobiliary and Transplantology Unit of <br />GG Hospital
+            offers a comprehensive...<a href="">Read More</a>
+          </p>
+        </div>
+        <div class="specificDepartment">
+          <img
+            src="img/Rectangle 1 (1).png"
+            alt="You-may-be-Interested image 2"
+          />
+          <h4>Hepatobiliary Surgery</h4>
+          <p>
+            The Hepatobiliary and Transplantology Unit of <br />GG Hospital
+            offers a comprehensive...<a href="">Read More</a>
+          </p>
+        </div>
+        <div class="specificDepartment">
+          <img
+            src="img/Rectangle 1 (2).png"
+            alt="You-may-be-Interested image 3"
+          />
+          <h4>Hepatobiliary Surgery</h4>
+          <p>
+            The Hepatobiliary and Transplantology Unit of <br />GG Hospital
+            offers a comprehensive...<a href="">Read More</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="int-bg">
+      <div>
+        <div class="sub-content">
+          <h4 class="s-content">Suscribe our <br />Newsletter Sign Up</h4>
+          <form action="" class="sub-form">
+            <input
+              class="email"
+              type="email"
+              placeholder="Enter your email id"
+              required
+            />
+            <button class="sub-button" type="submit">Subscribe</button>
+          </form>
+          <div id="line"><hr id="hr" /></div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div id="up-foot">
+        <div id="up-1">
+          <img id="up-img" src="img/gglogo.png" alt="" />
+          <p>
+            GG Hospital is the flagship hospital of the Sree <br />
+            Gokulam Group of Companies. Our journey <br />
+            started on 27th January 2016 for the common <br />
+            people in Trivandrum.
+          </p>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div>
+          <h4 id="up2-h">About GG</h4>
+          <div id="up2-grid">
+            <p class="up2-class">About us</p>
+            <p class="up2-class">Academic</p>
+            <p class="up2-class">Hospital</p>
+            <p class="up2-class">Department</p>
+          </div>
+        </div>
+
+        <div>
+          <h4 id="up3-h">Legal</h4>
+          <div id="up3-grid">
+            <p class="up3-class">Privacy Policy</p>
+            <p class="up3-class">Documentation</p>
+            <p class="up3-class">Terms of Services</p>
+            <p class="up3-class">Site Map</p>
+          </div>
+        </div>
+      </div>
+      <div id="foot-line"><hr id="foot-hr" /></div>
+      <div id="down-foot">
+        <div id="df-1">
+          <i class="fa fa-home"></i>
+          <p id="df1-p">
+            Medical College, Pattom Kumarapuram Rd,
+            <br />Murinjapalam,Thiruvananthapuram, Kerala 695011
+          </p>
+        </div>
+        <div id="df-2">
+          <i class="fa fa-phone"></i>
+          <p id="df2-p">
+            0471 2779100 <br />
+            0471 2779101 <br />
+            0471 4299299
+          </p>
+        </div>
+        <div id="df-3">
+          <i class="fa fa-envelope"></i>
+          <p id="df2-p">
+            gghospitalphkpl@gmail.com <br />
+            mdoffice@gg-hospital.com
+          </p>
+        </div>
+        <div id="df-4">
+          <h3 id="df-4">We are on Social Media</h3>
+          <div id="df4-icon">
+            <p class="foot-icons">
+              <i class="fa fa-linkedin"></i>&nbsp;
+              <i class="fa fa-youtube-play"></i>&nbsp;
+              <i class="fa fa-instagram"></i>&nbsp;
+              <i class="fa fa-facebook-f"></i>&nbsp;
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
